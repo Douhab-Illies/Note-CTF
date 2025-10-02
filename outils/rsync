@@ -1,0 +1,11 @@
+rsync --list-only -a rsync://10.129.234.169/
+	backups        	backups
+
+
+rsync --list-only -a rsync://10.129.234.169/backups
+	drwxr-xr-x          4,096 2024/05/02 15:26:31 .
+	-rw-r--r--    376,289,280 2024/05/02 15:26:19 jenkins.tar.gz
+
+
+rsync -a rsync://10.129.234.169/backups/jenkins.tar.gz .
+

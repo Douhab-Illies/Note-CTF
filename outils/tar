@@ -1,0 +1,16 @@
+tar -xzf toto.tar.gz
+
+
+
+
+
+
+ou 
+
+
+tar -xzf jenkins.tar.gz
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+[Aug 24, 2025 - 11:03:54 (CEST)] exegol-CTF Build # tar xf jenkins.tar.gz
