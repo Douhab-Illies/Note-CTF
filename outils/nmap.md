@@ -48,6 +48,12 @@ nmap -A -p- -T5 <IP>
 
 
 
-script par ex smb
+## Utilisation de script
 
+l'outil nmap est accompagné d'un certain nombre de scritp qui permet d'automatiser certaines taches.
+
+```bash
 nmap 10.10.10.4 --script="smb-vuln*"
+```
+
+Par exemple cette commande va verfier les vulnérabilité du service smb.

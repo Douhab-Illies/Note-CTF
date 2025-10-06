@@ -61,6 +61,7 @@ Dans le cas un authentification reussite, il faut conaitre plusieurs commande :
 
 
 
----
+### HTTP
+L'une des première choses a regarder est le serveur et sa version.
+Une fois cela fait, il faut impérativement verfier si une vulnérabilité existe.
 
-PHP la version : X-Powered-By dans Network
